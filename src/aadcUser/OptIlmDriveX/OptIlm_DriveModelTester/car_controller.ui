@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarControllerUi</class>
+ <widget class="QWidget" name="CarControllerUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>557</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Drive Model</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="6" column="0">
+        <widget class="QPushButton" name="pushButton_pull_out_left">
+         <property name="text">
+          <string>Pull out left</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_turn_left">
+         <property name="text">
+          <string>Turn Left</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QPushButton" name="pushButton_parking">
+         <property name="text">
+          <string>Parking</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton_stop">
+         <property name="text">
+          <string>Stop</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_lane_keeping">
+         <property name="text">
+          <string>Lane Keeping</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QPushButton" name="pushButton_straight">
+         <property name="text">
+          <string>Straight</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QPushButton" name="pushButton_pullout_right">
+         <property name="text">
+          <string>Pull out right</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QPushButton" name="pushButton_merge_left">
+         <property name="text">
+          <string>Merge left</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="pushButton_turn_right">
+         <property name="text">
+          <string>Turn Right</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Lights</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="7" column="1">
+        <widget class="QPushButton" name="pushButton_turnright">
+         <property name="text">
+          <string>Toggle TurnRight</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_lights">
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Lights</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButton_brake">
+         <property name="text">
+          <string>Toggle Brake</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_head">
+         <property name="text">
+          <string>Toggle Head</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QPushButton" name="pushButton_turnleft">
+         <property name="text">
+          <string>Toggle TurnLeft</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QPushButton" name="pushButton_reverse">
+         <property name="text">
+          <string>Toggle Reverse</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="pushButton_hazard">
+         <property name="text">
+          <string>Toggle Hazard</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_lights"/>
+ </buttongroups>
+</ui>

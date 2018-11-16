@@ -1,0 +1,126 @@
+<xml>
+ <property name="Signal Table View" value="tableview" />
+ <property name="Signal Table View.column_0_name" value="Signal" />
+ <property name="Signal Table View.column_0_show" value="true" />
+ <property name="Signal Table View.column_0_width" value="142" />
+ <property name="Signal Table View.column_1_name" value="Time" />
+ <property name="Signal Table View.column_1_show" value="true" />
+ <property name="Signal Table View.column_1_width" value="31" />
+ <property name="Signal Table View.column_2_name" value="Value" />
+ <property name="Signal Table View.column_2_show" value="true" />
+ <property name="Signal Table View.column_2_width" value="80" />
+ <property name="Signal Table View.column_3_name" value="Unit" />
+ <property name="Signal Table View.column_3_show" value="true" />
+ <property name="Signal Table View.column_3_width" value="100" />
+ <property name="Signal Table View.column_4_name" value="Raw" />
+ <property name="Signal Table View.column_4_show" value="false" />
+ <property name="Signal Table View.column_4_width" value="100" />
+ <property name="Signal Table View.column_5_name" value="Text" />
+ <property name="Signal Table View.column_5_show" value="true" />
+ <property name="Signal Table View.column_5_width" value="1070" />
+ <property name="Signal Table View.signal_0_displayformat" value="1" />
+ <property name="Signal Table View.signal_0_displayname" value="1. Reference speed" />
+ <property name="Signal Table View.signal_0_name" value="OptilmDriveX_graph/AutonomousDriving/speed_signal_str/f32Value" />
+ <property name="Signal Table View.signal_0_unit" value="" />
+ <property name="Signal Table View.signal_10_displayformat" value="1" />
+ <property name="Signal Table View.signal_10_displayname" value="af32TVec[2]" />
+ <property name="Signal Table View.signal_10_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_ext_stream/af32TVec[2]" />
+ <property name="Signal Table View.signal_10_unit" value="" />
+ <property name="Signal Table View.signal_11_displayformat" value="1" />
+ <property name="Signal Table View.signal_11_displayname" value="af32TVec[0]" />
+ <property name="Signal Table View.signal_11_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_ext_stream/af32TVec[0]" />
+ <property name="Signal Table View.signal_11_unit" value="" />
+ <property name="Signal Table View.signal_12_displayformat" value="1" />
+ <property name="Signal Table View.signal_12_displayname" value="6. RoadSign_X" />
+ <property name="Signal Table View.signal_12_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_data_str/f32RoadSign_X" />
+ <property name="Signal Table View.signal_12_unit" value="" />
+ <property name="Signal Table View.signal_13_displayformat" value="1" />
+ <property name="Signal Table View.signal_13_displayname" value="7. RoadSign_Y" />
+ <property name="Signal Table View.signal_13_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_data_str/f32RoadSign_Y" />
+ <property name="Signal Table View.signal_13_unit" value="" />
+ <property name="Signal Table View.signal_14_displayformat" value="1" />
+ <property name="Signal Table View.signal_14_displayname" value="5. RoadSign_Direction" />
+ <property name="Signal Table View.signal_14_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_data_str/f32Direction" />
+ <property name="Signal Table View.signal_14_unit" value="" />
+ <property name="Signal Table View.signal_15_displayformat" value="1" />
+ <property name="Signal Table View.signal_15_displayname" value="8. f32LandModel_k" />
+ <property name="Signal Table View.signal_15_name" value="OptilmDriveX_graph/AutonomousDriving/lane_data_stream/f32LandModel_k" />
+ <property name="Signal Table View.signal_15_unit" value="" />
+ <property name="Signal Table View.signal_16_displayformat" value="1" />
+ <property name="Signal Table View.signal_16_displayname" value="9. f32LandModel_m" />
+ <property name="Signal Table View.signal_16_name" value="OptilmDriveX_graph/AutonomousDriving/lane_data_stream/f32LandModel_m" />
+ <property name="Signal Table View.signal_16_unit" value="" />
+ <property name="Signal Table View.signal_17_displayformat" value="1" />
+ <property name="Signal Table View.signal_17_displayname" value="92. f32LandModel_b" />
+ <property name="Signal Table View.signal_17_name" value="OptilmDriveX_graph/AutonomousDriving/lane_data_stream/f32LandModel_b" />
+ <property name="Signal Table View.signal_17_unit" value="" />
+ <property name="Signal Table View.signal_18_displayformat" value="1" />
+ <property name="Signal Table View.signal_18_displayname" value="EKF_X" />
+ <property name="Signal Table View.signal_18_name" value="OptilmDriveX_graph/AutonomousDriving/EKFPosition_str/f32x" />
+ <property name="Signal Table View.signal_18_unit" value="" />
+ <property name="Signal Table View.signal_19_displayformat" value="1" />
+ <property name="Signal Table View.signal_19_displayname" value="f32x" />
+ <property name="Signal Table View.signal_19_name" value="Demo_graph_OptIlmDriveX/AutonomousDriving/position_stream/f32x" />
+ <property name="Signal Table View.signal_19_unit" value="" />
+ <property name="Signal Table View.signal_1_displayformat" value="1" />
+ <property name="Signal Table View.signal_1_displayname" value="3. Output percentage" />
+ <property name="Signal Table View.signal_1_name" value="OptilmDriveX_graph/AutonomousDriving/speed_output_pct_str/f32Value" />
+ <property name="Signal Table View.signal_1_unit" value="" />
+ <property name="Signal Table View.signal_20_displayformat" value="1" />
+ <property name="Signal Table View.signal_20_displayname" value="f32y" />
+ <property name="Signal Table View.signal_20_name" value="Demo_graph_OptIlmDriveX/AutonomousDriving/position_stream/f32y" />
+ <property name="Signal Table View.signal_20_unit" value="" />
+ <property name="Signal Table View.signal_21_displayformat" value="1" />
+ <property name="Signal Table View.signal_21_displayname" value="f32radius" />
+ <property name="Signal Table View.signal_21_name" value="Demo_graph_OptIlmDriveX/AutonomousDriving/position_stream/f32radius" />
+ <property name="Signal Table View.signal_21_unit" value="" />
+ <property name="Signal Table View.signal_22_displayformat" value="1" />
+ <property name="Signal Table View.signal_22_displayname" value="f32speed" />
+ <property name="Signal Table View.signal_22_name" value="Demo_graph_OptIlmDriveX/AutonomousDriving/position_stream/f32speed" />
+ <property name="Signal Table View.signal_22_unit" value="" />
+ <property name="Signal Table View.signal_23_displayformat" value="1" />
+ <property name="Signal Table View.signal_23_displayname" value="f32heading" />
+ <property name="Signal Table View.signal_23_name" value="Demo_graph_OptIlmDriveX/AutonomousDriving/position_stream/f32heading" />
+ <property name="Signal Table View.signal_23_unit" value="" />
+ <property name="Signal Table View.signal_24_displayformat" value="1" />
+ <property name="Signal Table View.signal_24_displayname" value="image_control_flag" />
+ <property name="Signal Table View.signal_24_name" value="OptilmDriveX_graph/AutonomousDriving/Image_control_flag_stream/f32Value" />
+ <property name="Signal Table View.signal_24_unit" value="" />
+ <property name="Signal Table View.signal_25_displayformat" value="1" />
+ <property name="Signal Table View.signal_25_displayname" value="i16Identifier" />
+ <property name="Signal Table View.signal_25_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_data_str/i16Identifier" />
+ <property name="Signal Table View.signal_25_unit" value="" />
+ <property name="Signal Table View.signal_2_displayformat" value="1" />
+ <property name="Signal Table View.signal_2_displayname" value="2. Actual Speed" />
+ <property name="Signal Table View.signal_2_name" value="OptilmDriveX_graph/AutonomousDriving/car_speed_stream/f32Value" />
+ <property name="Signal Table View.signal_2_unit" value="" />
+ <property name="Signal Table View.signal_3_displayformat" value="1" />
+ <property name="Signal Table View.signal_3_displayname" value="4. Steering_pct" />
+ <property name="Signal Table View.signal_3_name" value="OptilmDriveX_graph/steering/f32Value" />
+ <property name="Signal Table View.signal_3_unit" value="" />
+ <property name="Signal Table View.signal_4_displayformat" value="1" />
+ <property name="Signal Table View.signal_4_displayname" value="f32x" />
+ <property name="Signal Table View.signal_4_name" value="OptilmDriveX_graph/AutonomousDriving/position_stream/f32x" />
+ <property name="Signal Table View.signal_4_unit" value="" />
+ <property name="Signal Table View.signal_5_displayformat" value="1" />
+ <property name="Signal Table View.signal_5_displayname" value="f32y" />
+ <property name="Signal Table View.signal_5_name" value="OptilmDriveX_graph/AutonomousDriving/position_stream/f32y" />
+ <property name="Signal Table View.signal_5_unit" value="" />
+ <property name="Signal Table View.signal_6_displayformat" value="1" />
+ <property name="Signal Table View.signal_6_displayname" value="f32radius" />
+ <property name="Signal Table View.signal_6_name" value="OptilmDriveX_graph/AutonomousDriving/position_stream/f32radius" />
+ <property name="Signal Table View.signal_6_unit" value="" />
+ <property name="Signal Table View.signal_7_displayformat" value="1" />
+ <property name="Signal Table View.signal_7_displayname" value="f32speed" />
+ <property name="Signal Table View.signal_7_name" value="OptilmDriveX_graph/AutonomousDriving/position_stream/f32speed" />
+ <property name="Signal Table View.signal_7_unit" value="" />
+ <property name="Signal Table View.signal_8_displayformat" value="1" />
+ <property name="Signal Table View.signal_8_displayname" value="f32heading" />
+ <property name="Signal Table View.signal_8_name" value="OptilmDriveX_graph/AutonomousDriving/position_stream/f32heading" />
+ <property name="Signal Table View.signal_8_unit" value="" />
+ <property name="Signal Table View.signal_9_displayformat" value="1" />
+ <property name="Signal Table View.signal_9_displayname" value="f32Distance" />
+ <property name="Signal Table View.signal_9_name" value="OptilmDriveX_graph/AutonomousDriving/road_sign_data_str/f32Distance" />
+ <property name="Signal Table View.signal_9_unit" value="" />
+ <property name="Signal Table View.signal_count" value="26" />
+</xml>

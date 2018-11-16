@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<AADC-Maneuver-List description="Teststrecke">
+	<AADC-Sector id="0">
+		<AADC-Maneuver id="0" action="straight" />
+		<AADC-Maneuver id="1" action="merge_left" />
+		<AADC-Maneuver id="2" action="right" />
+		<AADC-Maneuver id="3" action="right" />
+		<AADC-Maneuver id="4" action="straight" />
+		<AADC-Maneuver id="5" action="straight" />
+		<AADC-Maneuver id="6" action="left" />
+		<AADC-Maneuver id="7" action="straight" />
+		<AADC-Maneuver id="8" action="straight" />
+		<AADC-Maneuver id="9" action="straight" />
+		<AADC-Maneuver id="10" action="left" />
+		<AADC-Maneuver id="11" action="cross_parking" extra="2"/>
+		<AADC-Maneuver id="12" action="pull_out_right" />
+		<AADC-Maneuver id="13" action="right" />
+		<AADC-Maneuver id="14" action="left" />
+		<AADC-Maneuver id="15" action="right" />
+		<AADC-Maneuver id="16" action="cross_parking" extra="2"/>
+	</AADC-Sector>
+</AADC-Maneuver-List>

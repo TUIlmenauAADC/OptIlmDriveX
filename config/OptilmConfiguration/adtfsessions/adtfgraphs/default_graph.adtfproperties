@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<property_file xmlns="adtf/xsd/properties">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <property_packages>
+    <property_package>
+      <name>default</name>
+      <property_sets>
+        <property_set>
+          <name>graphs/visualization_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/input_data_ports/position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/sample_streams/position_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/position._position_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Demo Qt Video Display</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Demo Qt Video Display/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/streaming_in_ports/laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/streaming_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/streaming_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/streaming_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/Car Controller</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_EmergencyBreak</name>
+          <properties>
+            <property>
+              <name>Emergency Break/1.Front Minimum break time(S)</name>
+              <value>0.40</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Emergency Break/3.Minimum break distance(cm)</name>
+              <value>15.000000</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/streaming_out_ports/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/streaming_out_ports/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/Car Controller.steering_steering.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/Car Controller/output_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_EmergencyBreak/output_pins/OutputSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/laserscanner._OptIlm_EmergencyBreak.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_EmergencyBreak/input_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/ultrasonic_struct._OptIlm_EmergencyBreak.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_EmergencyBreak/input_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/sample_streams/VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/sample_streams/ControlSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/Car Controller.speed_ControlSpeed_pct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/Car Controller/output_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_EmergencyBreak/input_pins/ControlSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/VehicleSpeed._OptIlm_EmergencyBreak.VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_EmergencyBreak/input_pins/VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Arduino EgoMotion Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Arduino Ultrasonic Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Laser Scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.steering_Arduino Actuator.steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.speed_Arduino Actuator.speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Laser Scanner.output_Filter Graph Dock.laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Laser Scanner/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Arduino Ultrasonic Sensor.ultrasonic_struct_Filter Graph Dock.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Arduino Ultrasonic Sensor/output_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Arduino EgoMotion Sensor.wheel_left_Filter Graph Dock.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Arduino EgoMotion Sensor.wheel_right_Filter Graph Dock.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Arduino EgoMotion Sensor.iner_meas_unit_Filter Graph Dock.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_in_ports/laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_out_ports/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_out_ports/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/sample_streams/VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/Control_Steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/Control_Speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/sample_streams/actuator_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_in_ports/Control_Speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/streaming_in_ports/Control_Steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/sample_streams/OutputSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/OutputSpeed_pct._speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/sample_streams/WheelsTachDifference</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/OptIlm Signal Value Generator</name>
+          <properties>
+            <property>
+              <name>Timer Interval [Hz]</name>
+              <value>1000</value>
+              <type>tInt64</type>
+            </property>
+            <property>
+              <name>Test Index</name>
+              <value>10</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/OptIlm Signal Value Generator.Steering_output_Filter Graph Dock.Control_Steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/OptIlm Signal Value Generator/output_pins/Steering_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/OptIlm Signal Value Generator.Speed_output_Filter Graph Dock.Control_Speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/OptIlm Signal Value Generator/output_pins/Speed_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/sample_streams/EmergencyBreakFlag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/OptIlm_EmergencyBreak.OutputSpeed_pct_OutputSpeed_pct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak/output_pins/OutputSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/OptIlm_EmergencyBreak.EmergencyBreakFlag_EmergencyBreakFlag.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak/output_pins/EmergencyBreakFlag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/actuator_output._OptIlm_EmergencyBreak.ControlSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak/input_pins/ControlSpeed_pct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/VehicleSpeed._OptIlm_EmergencyBreak.VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak/input_pins/VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/laserscanner._OptIlm_EmergencyBreak.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak/input_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/ultrasonic_struct._OptIlm_EmergencyBreak.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_EmergencyBreak/input_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_ConverterWheels</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/wheel_left._OptIlm_ConverterWheels.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_ConverterWheels/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/wheel_right._OptIlm_ConverterWheels.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_ConverterWheels/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/OptIlm_ConverterWheels.vehicle_speed_VehicleSpeed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/filters/OptIlm_ConverterWheels/output_pins/vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_WheelSpeedController</name>
+          <properties>
+            <property>
+              <name>trigger/02.proportional factor for PID Controller </name>
+              <value>20</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/03.integral factor for PID Controller</name>
+              <value>20</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/10.the minimum output value for the controller [%]</name>
+              <value>-30</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/11.the maximum output value for the controller [%]</name>
+              <value>30</value>
+              <type>tFloat64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_WheelSpeedController/runners/trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/Control_Speed._OptIlm_WheelSpeedController.desired_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_WheelSpeedController/input_pins/desired_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/VehicleSpeed._OptIlm_WheelSpeedController.measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_WheelSpeedController/input_pins/measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/OptIlm_WheelSpeedController.actuator_output_actuator_output.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_WheelSpeedController/output_pins/actuator_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/EmergencyBreakFlag._OptIlm_WheelSpeedController.Emergency_Break_Flag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_WheelSpeedController/input_pins/Emergency_Break_Flag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_ConverterWheels</name>
+          <properties>
+            <property>
+              <name>trigger/enable filtering</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/filter constant of first order</name>
+              <value>0.2</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/wheel_left._OptIlm_ConverterWheels.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_ConverterWheels/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/wheel_right._OptIlm_ConverterWheels.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_ConverterWheels/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/OptIlm_ConverterWheels.vehicle_speed_VehicleSpeed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_ConverterWheels/output_pins/vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/OptIlm_ConverterWheels.tach_difference_WheelsTachDifference.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/filters/OptIlm_ConverterWheels/output_pins/tach_difference</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/active_runners/Thread Runner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/Thread Runner._OptIlm_WheelSpeedController.trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels</name>
+          <properties>
+            <property>
+              <name>trigger/enable filtering</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/filter constant of first order</name>
+              <value>0.2</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/plausibilization via direction indicator enable</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/wheel_right_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/wheel_left_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/wheel_left._wheel_left_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/wheel_right._wheel_right_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/wheel_left_stream._OptIlm_ConverterWheels.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/wheel_right_stream._OptIlm_ConverterWheels.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/front_cam_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/front_cam._front_cam_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Fisheye Undistortion</name>
+          <properties>
+            <property>
+              <name>trigger/calibration file</name>
+              <value>../../../../configuration_files/basler_fisheye_intrinsic_calib.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/GPU processing</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Fisheye Undistortion/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Detector</name>
+          <properties>
+            <property>
+              <name>trigger/Calibration File</name>
+              <value>../../../../configuration_files/basler_afterFisheye_intrinsic_calibration.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Detector Parameter File</name>
+              <value>../../../../configuration_files/detector_params.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Detector Roi::Show Roi</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/Detector Roi::X_Offset</name>
+              <value>550</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Detector Roi::Y_Offset</name>
+              <value>310</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Detector Roi::height</name>
+              <value>300</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Detector Roi::width</name>
+              <value>680</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Detector Roi::Draw Roi</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/Marker Size [m]</name>
+              <value>0.12</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Camera Offset::Lateral</name>
+              <value>-0.06</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Camera Offset::Longitudinal</name>
+              <value>0.265</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/Fisheye_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Fisheye Undistortion.output_Fisheye_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Fisheye Undistortion/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Fisheye_stream._OptIlm Marker Detector.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Detector/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Front Cam Video Display</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Image Process Debug Video Display</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Marker Detector Video Display</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/lane_data_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/front_cam_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/video_debug_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/front_cam_str._Front Cam Video Display.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Front Cam Video Display/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/video_debug_str._Image Process Debug Video Display.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Image Process Debug Video Display/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/road_sign_ext_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/markt_video_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm Marker Detector.road_sign_ext_road_sign_ext_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Detector/output_pins/road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm Marker Detector.output_markt_video_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Detector/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/markt_video_stream._Marker Detector Video Display.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Marker Detector Video Display/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning</name>
+          <properties>
+            <property>
+              <name>MarkerPos/Roadsign File</name>
+              <value>../../../../configuration_files/finalevent_2018_roadSigns_v3.xml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>MarkerPos/Camera Offset::Lateral</name>
+              <value>-0.06</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>MarkerPos/Camera Offset::Longitudinal</name>
+              <value>0.315</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/imu_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/iner_meas_unit._imu_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/car_speed_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/distance_overall_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/wheel_difference_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm_ConverterWheels.vehicle_speed_car_speed_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/output_pins/vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm_ConverterWheels.distance_overall_distance_overall_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/output_pins/distance_overall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm_ConverterWheels.tach_difference_wheel_difference_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/output_pins/tach_difference</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/car_speed_stream._OptIlm Marker Positioning.speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/input_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/imu_stream._OptIlm Marker Positioning.imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/input_pins/imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/road_sign_ext_stream._OptIlm Marker Positioning.road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/input_pins/road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/position_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm Marker Positioning.position_position_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/output_pins/position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm DriveModelTester</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/driving_mode_test_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm DriveModelTester.Drive_model_driving_mode_test_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm DriveModelTester/output_pins/Drive_model</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/laserscanner_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/laserscanner._laserscanner_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/ultrasonic_struct_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/ultrasonic_struct._ultrasonic_struct_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/auto_drive_video_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/driving_model_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/EmergencyBreakflag_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/TrajectoryPoint_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Autonomus Driving Video Display</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/auto_drive_video_stream._Autonomus Driving Video Display.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Autonomus Driving Video Display/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/driving_model_str._OptIlm_ModelPredictiveController.DrivingModel</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/input_pins/DrivingModel</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/TrajectoryPoint_stream._OptIlm_ModelPredictiveController.TrajectoryPoint</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/input_pins/TrajectoryPoint</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/runners/Model Predictive Controller</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/car_speed_stream._OptIlm_ModelPredictiveController.VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/input_pins/VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/input_pins/position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController</name>
+          <properties>
+            <property>
+              <name>trigger/02.proportional factor for PID Controller </name>
+              <value>20</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/03.integral factor for PID Controller</name>
+              <value>20</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/10.the minimum output value for the controller [%]</name>
+              <value>-50.000000</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/11.the maximum output value for the controller [%]</name>
+              <value>50.000000</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/05.sampletime for the pid controller [S]</name>
+              <value>0.01</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/04.differential factor for PID Controller</name>
+              <value>0.01</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/01.controller type</name>
+              <value>2</value>
+              <type>tInt32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/active_runners/Thread Runner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController/runners/trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/speed_output_pct_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/steering_output_pct_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController/output_pins/actuator_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/speed_signal_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/output_pins/Steering_Control_Signal</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm_ModelPredictiveController.Speed_Control_Signal_speed_signal_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/output_pins/Speed_Control_Signal</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/speed_signal_str._OptIlm_WheelSpeedController.desired_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController/input_pins/desired_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController/input_pins/measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/EmergencyBreakflag_stream._OptIlm_WheelSpeedController.Emergency_Break_Flag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController/input_pins/Emergency_Break_Flag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/active_runners/Thread Runner_1</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Thread Runner_1._OptIlm_ModelPredictiveController.Model Predictive Controller</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/active_runners/Thread Runner_2</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/car_speed_stream._OptIlm_WheelSpeedController.measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/speed_output_pct_str._speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Speed_Test/connections/Control_Steering._steering.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/steering_output_pct_str._steering.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/Image_control_flag_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.reverse_light_Arduino Actuator.reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.head_light_Arduino Actuator.head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.brake_light_Arduino Actuator.brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.turn_signal_left_Arduino Actuator.turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.turn_signal_right_Arduino Actuator.turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.hazard_light_Arduino Actuator.hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Arduino Actuator/input_pins/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/position_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/speed_signal_str._OptIlm_ConverterWheels.speed_control</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/input_pins/speed_control</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/Steering_Test/connections/ControlSpeed_pct._speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/front_cam_stream._Fisheye Undistortion.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/road_sign_data_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm Marker Positioning.road_sign_data_road_sign_data_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/output_pins/road_sign_data</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/input_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Optilm MapVisualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/sample_streams/map_video_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/Optilm MapVisualization.Video_output_map_video_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Optilm MapVisualization/output_pins/Video_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/map_video_str._Demo Qt Video Display.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/position_stream._Optilm MapVisualization.Position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Optilm MapVisualization/input_pins/Position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/input_data_ports/position_2</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/sample_streams/position2_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/position_2._position2_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/position2_stream._Optilm MapVisualization.Position2</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Optilm MapVisualization/input_pins/Position2</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/subgraphs/MAP</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/position_stream._MAP.position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/active_runners/Thread Runner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/Thread Runner._Optilm MapVisualization.Optilm MapVisualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Optilm MapVisualization/runners/Optilm MapVisualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/sample_streams/EKFPosition_str</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ModelPredictiveController/output_pins/EKFposition</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/active_runners/Thread Runner_5</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_WheelSpeedController/input_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm_ConverterWheels/runners/trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Thread Runner._OptIlm_WheelSpeedController.trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm_WheelSpeedController.actuator_output_speed_output_pct_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm_ModelPredictiveController.Steering_Control_Signal_steering_output_pct_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/steering_output_pct_str._OptIlm Marker Positioning.steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/output_pins/EKFposition</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/steering_output_pct_str._OptIlm_WheelSpeedController.steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving</name>
+          <properties>
+            <property>
+              <name>Autonomous Driving/3.VehicleSpeed: a.Minimum speed</name>
+              <value>0.5</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/3.VehicleSpeed: b.Maximum speed</name>
+              <value>0.8</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/4.Parking: b.Slot distance 1 (cm)</name>
+              <value>-100</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/4.Parking: c.Slot distance 2 (cm)</name>
+              <value>-144</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/4.Parking: d.Slot distance 3 (cm)</name>
+              <value>-196</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/4.Parking: e.Slot distance 4 (cm)</name>
+              <value>-247</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: a.Road sign distance(cm)</name>
+              <value>120</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: b.Stop line distance(cm)</name>
+              <value>5</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: c.TurnLeft stop distance(cm)</name>
+              <value>32</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: d.TurnLeft no stop distance(cm)</name>
+              <value>25</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: e.TurnRight stop distance(cm)</name>
+              <value>34</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: f.TurnRight no stop distance(cm)</name>
+              <value>34</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: g.TurnStraight stop distance(cm)</name>
+              <value>25</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/5.Crossing: h.TurnStraight no stop distance(cm)</name>
+              <value>20</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/2.EmergencyBreak: a.Front Minimum break time(S)</name>
+              <value>0.7</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/2.EmergencyBreak: b.Rear Minimum break time(s)</name>
+              <value>0.5</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/2.EmergencyBreak: c.Minimum break distance(cm)</name>
+              <value>15</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/1.DrivingModelTest</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/6.Avoidance: d.Come back counter(cm)</name>
+              <value>5</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/6.Avoidance: a.Obstacle detection distance(cm)</name>
+              <value>200</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/6.Avoidance: b.Avoidance start distance(cm)</name>
+              <value>120</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/4.Parking: a.Road sign distance(cm)</name>
+              <value>100</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/7.Pedestrian: a.Road sign distance(cm)</name>
+              <value>120</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Autonomous Driving/1.Demo Model</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Thread Runner_2._Optilm AutonomousDriving.Autonomous Driving</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/runners/Autonomous Driving</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.Video_output_auto_drive_video_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/Video_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.DrivingModel_driving_model_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/DrivingModel</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.TrajectoryPoint_TrajectoryPoint_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/TrajectoryPoint</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.reverse_light_reverse_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.hazard_light_hazard_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.brake_light_brake_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.turn_signal_left_turn_signal_left.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.turn_signal_right_turn_signal_right.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.head_light_head_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.EmergencyBreakFlag_EmergencyBreakflag_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/EmergencyBreakFlag</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.ImageControlMode_Image_control_flag_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/ImageControlMode</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/driving_mode_test_stream._Optilm AutonomousDriving.DrivingModelFromTester</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/DrivingModelFromTester</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/Position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/car_speed_stream._Optilm AutonomousDriving.VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/VehicleSpeed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/distance_overall_stream._Optilm AutonomousDriving.DistanceOverall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/DistanceOverall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/road_sign_data_str._Optilm AutonomousDriving.RoadSignData</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/RoadSignData</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/laserscanner_stream._Optilm AutonomousDriving.LaserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/LaserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/ultrasonic_struct_stream._Optilm AutonomousDriving.UltrasonicStruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/UltrasonicStruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/lane_data_stream._Optilm AutonomousDriving.LaneData</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/LaneData</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/steering_output_pct_str._Optilm AutonomousDriving.SteeringAngle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/SteeringAngle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_out_ports/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Optilm AutonomousDriving.driver_struct_driver_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/output_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_out_ports/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Jury Communication TCP Sender</name>
+          <properties>
+            <property>
+              <name>Enable console log</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Filter Graph Dock.driver_struct_Jury Communication TCP Sender.driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Jury Communication TCP Sender/input_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/binding_proxys/Binding Proxy</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Binding Proxy._Jury Communication TCP Sender.socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sinks/Jury Communication TCP Sender/binding_clients/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Jury Communication TCP Receiver</name>
+          <properties>
+            <property>
+              <name>Enable console log</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>port</name>
+              <value>54321</value>
+              <type>tUInt32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/open_drive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_dock_in_ports/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Jury Communication TCP Receiver.jury_struct_Filter Graph Dock.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Jury Communication TCP Receiver.maneuver_list_Filter Graph Dock.maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Jury Communication TCP Receiver.open_drive_map_Filter Graph Dock.open_drive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/open_drive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Jury Communication TCP Receiver.road_sign_map_Filter Graph Dock.road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Jury Communication TCP Receiver.socket_Binding Proxy.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Jury Communication TCP Receiver/binding_servers/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Map Visualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Basler Camera</name>
+          <properties>
+            <property>
+              <name>frame_delay [micro s]</name>
+              <value>100000</value>
+              <type>tInt64</type>
+            </property>
+            <property>
+              <name>ROI height [Pixel]</name>
+              <value>400</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>ROI width [Pixel]</name>
+              <value>1000</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>brightness</name>
+              <value>0.2</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>ROI xOffset [Pixel]</name>
+              <value>140</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>ROI yOffset [Pixel]</name>
+              <value>330</value>
+              <type>tInt32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/connections/Basler Camera.video_rgb_Filter Graph Dock.front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/OptilmDriveX_graph/streaming_sources/Basler Camera/output_pins/video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/position_stream._OptIlm_ModelPredictiveController.position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/position_stream._Optilm AutonomousDriving.Position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm Marker Positioning/input_pins/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/position_stream._Map Visualization.position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Map Visualization/input_pins/position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/streaming_in_ports/open_drive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/connections/open_drive_map._Map Visualization.open_drive</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/visualization_graph/filters/Map Visualization/input_pins/open_drive</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/road_sign_map._OptIlm Marker Positioning.road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Thread Runner_5._OptIlm ImageProcessing.Image Processing</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/runners/Image Processing</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/input_pins/video_input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm ImageProcessing.video_output_front_cam_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/output_pins/video_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm ImageProcessing.video_debug_video_debug_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/output_pins/video_debug</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm ImageProcessing.LaneData_lane_data_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/output_pins/LaneData</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/steering_output_pct_str._OptIlm ImageProcessing.SteeringAngle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/input_pins/SteeringAngle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/OptIlm ImageProcessing/input_pins/ImageControlMode</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/Image_control_flag_stream._OptIlm ImageProcessing.ImageControlMode</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/front_cam_stream._OptIlm ImageProcessing.video_input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/EKFPosition_str._MAP.position_2</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/OptIlm Marker Positioning.EKFposition_EKFPosition_str.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Laser Scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Arduino Ultrasonic Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Arduino EgoMotion Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Basler Camera</name>
+          <properties>
+            <property>
+              <name>ROI height [Pixel]</name>
+              <value>400</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>ROI width [Pixel]</name>
+              <value>1000</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>ROI xOffset [Pixel]</name>
+              <value>140</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>ROI yOffset [Pixel]</name>
+              <value>330</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>brightness</name>
+              <value>0.2</value>
+              <type>tFloat64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/OPtIlm Communication TCP Receiver</name>
+          <properties>
+            <property>
+              <name>Enable console log</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>port</name>
+              <value>54321</value>
+              <type>tUInt32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/OPtIlm Communication TCP Sender</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/binding_proxys/Binding Proxy</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/OPtIlm Communication TCP Receiver.socket_Binding Proxy.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/OPtIlm Communication TCP Receiver/binding_servers/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Binding Proxy._OPtIlm Communication TCP Sender.socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/OPtIlm Communication TCP Sender/binding_clients/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_in_ports/demo_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_dock_out_ports/position_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Laser Scanner.output_Filter Graph Dock.laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Laser Scanner/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Arduino Ultrasonic Sensor.ultrasonic_struct_Filter Graph Dock.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Arduino Ultrasonic Sensor/output_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Arduino EgoMotion Sensor.wheel_left_Filter Graph Dock.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Arduino EgoMotion Sensor.wheel_right_Filter Graph Dock.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Arduino EgoMotion Sensor.iner_meas_unit_Filter Graph Dock.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Arduino EgoMotion Sensor/output_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Basler Camera.video_rgb_Filter Graph Dock.front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/Basler Camera/output_pins/video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/OPtIlm Communication TCP Receiver.jury_struct_Filter Graph Dock.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/OPtIlm Communication TCP Receiver/output_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.steering_Arduino Actuator.steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.speed_Arduino Actuator.speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.reverse_light_Arduino Actuator.reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.hazard_light_Arduino Actuator.hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.brake_light_Arduino Actuator.brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.turn_signal_left_Arduino Actuator.turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.turn_signal_right_Arduino Actuator.turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.head_light_Arduino Actuator.head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/Arduino Actuator/input_pins/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/Filter Graph Dock.driver_struct_OPtIlm Communication TCP Sender.driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sinks/OPtIlm Communication TCP Sender/input_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/connections/OPtIlm Communication TCP Receiver.Demo_ManeuverList_Filter Graph Dock.demo_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/Demo_graph_OptIlmDriveX/streaming_sources/OPtIlm Communication TCP Receiver/output_pins/Demo_ManeuverList</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/streaming_in_ports/demo_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/filters/Optilm AutonomousDriving/input_pins/Demo_ManeuverListr</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/jury_struct._Optilm AutonomousDriving.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/maneuver_list._Optilm AutonomousDriving.maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/AutonomousDriving/connections/demo_maneuver_list._Optilm AutonomousDriving.Demo_ManeuverListr</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/kernel.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/reference_clock.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_registry.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/media_description.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/qt_xsystem.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/adtf_file_support.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/log_view.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_tree_view.ui_service.adtf_disptb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_table_view.ui_service.adtf_disptb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_scope_view.ui_service.adtf_disptb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/sample_stream_tracer.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/sample_stream_trace_view.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+      </property_sets>
+    </property_package>
+  </property_packages>
+</property_file>

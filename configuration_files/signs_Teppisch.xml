@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	
+<!-- set init-parameter to allow the positioning system to initialise with the sign 
+# note: optimally initialising signs should be unique across the parcour 
+# version: 1.1
+-->
+
+<!--sector #1 -->
+
+<roadSign id="11" x="6.930" y="4.160" radius="1.0" direction="90" update="1" init="1"/>
+<roadSign id="3" x="15.814" y="2.805" radius="1.0" direction="0" update="1" init="1"/>
+<roadSign id="2" x="3.810" y="2.805" radius="1.0" direction="0" update="1" init="1"/>
+<roadSign id="10" x="15.835" y="1.336" radius="1.0" direction="-90" update="1" init="1"/>
+
+
+
+<!-- roadsigns from left to right and top to bottom -->
+<roadSign id="1" x="16.035" y="1.336" radius="1.0" direction="-90" update="1"/>
+<roadSign id="1" x="19.846" y="2.805" radius="1.0" direction="0" update="1"/>
+<roadSign id="3" x="15.814" y="-0.155" radius="1.0" direction="0" update="1"/>
+<roadSign id="3" x="17.526" y="4.075" radius="1.0" direction="180" update="1"/>
+<roadSign id="3" x="21.337" y="2.584" radius="1.0" direction="90" update="1"/>
+<roadSign id="3" x="15.814" y="2.805" radius="1.0" direction="0" update="1"/>
+<roadSign id="3" x="17.526" y="1.115" radius="1.0" direction="180" update="1"/>
+<roadSign id="3" x="20.067" y="4.296" radius="1.0" direction="-90" update="1"/>
+<roadSign id="5" x="17.305" y="2.584" radius="1.0" direction="90" update="1"/>
+<roadSign id="5" x="16.035" y="4.296" radius="1.0" direction="-90" update="1"/>
+
+<!-- autonomous driving -->
+<roadSign id="10" x="5.480" y="-0.155" radius="1.0" direction="0" update="1"/>
+<roadSign id="10" x="12.530" y="1.115" radius="1.0" direction="180" update="1"/>
+<roadSign id="10" x="12.530" y="2.805" radius="1.0" direction="0" update="1"/>
+<roadSign id="10" x="3.480" y="4.075" radius="1.0" direction="180" update="1"/>
+<roadSign id="10" x="15.835" y="1.336" radius="1.0" direction="-90" update="1"/>
+
+<!-- parking -->
+<roadSign id="2" x="5.240" y="2.805" radius="1.0" direction="0" update="1"/>
+
+<!-- Pedestrian -->
+<roadSign id="6" x="11.610" y="4.075" radius="1.0" direction="180" update="1"/>
+<roadSign id="6" x="9.580" y="2.805" radius="1.0" direction="0" update="1"/>
+
+<!-- overtaking forbid -->
+<roadSign id="8" x="3.480" y="1.115" radius="1.0" direction="180" update="1"/>
+<roadSign id="8" x="12.530" y="4.075" radius="1.0" direction="180" update="1"/>
+<!-- overtaking permit -->
+<roadSign id="14" x="14.760" y="1.115" radius="1.0" direction="180" update="1"/>
+<roadSign id="14" x="3.480" y="-0.155" radius="1.0" direction="0" update="1"/>
+</configuration>
+
